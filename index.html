@@ -2252,18 +2252,27 @@
 </head>
 
 <body>
-  <amp-analytics type="gtag" data-credentials="include">
+
+  <amp-analytics type="googleanalytics">
     <script type="application/json">
-      {
-        "vars" : {
-          "gtag_id": "G-Q39PQP1873",
-          "config" : {
-            "G-Q39PQP1873": { "groups": "default" }
+    {
+      "vars": {
+        "account": "G-Q39PQP1873"
+      },
+      "triggers": {
+        "default pageview": {
+          "on": "visible",
+          "request": "pageview",
+          "vars": {
+            "title": "Name of the Article"
           }
         }
       }
+    }
     </script>
   </amp-analytics>
+
+
   <!-- Start Navbar -->
 
   <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4">
