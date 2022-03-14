@@ -3,12 +3,12 @@
   "name": "Dust of Morning NFT Collection",
   "icons": [
   {
-  "src": "./images/amplogo192.png",
+  "src": "./images/logo.png",
   "type": "image/png",
   "sizes": "192x192"
   },
   {
-  "src": "./images/amplogo512.png",
+  "src": "./images/logo.png",
   "type": "image/png",
   "sizes": "512x512"
   }
